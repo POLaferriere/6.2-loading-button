@@ -19,3 +19,9 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
 }
+
+button {
+  @include size(200px 80px);
+  display: block;
+  margin: 25% auto 0;
+}
